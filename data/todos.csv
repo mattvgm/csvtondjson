@@ -1,0 +1,100 @@
+Id,Nome,Idade,Peso,Cidade,Altura
+0,Sr(a) Angelo Hintz,88,178 Kg,Santo André,1.85
+1,Sr(a) Garfield Schinner,64,25 Kg,Porto Alegre,1.57
+2,Sr(a) Luciano Kulas,102,98 Kg,Guarulhos,1.92
+3,Sr(a) Michele Koss,41,135 Kg,Guarulhos,1.15
+4,Sr(a) Noemie Turner,92,44 Kg,Florianópolis,1.06
+5,Sr(a) Molly Blick,86,164 Kg,Santos,1.35
+6,Sr(a) Kyler White,30,4 Kg,São Paulo,1.53
+7,Sr(a) Gust Ritchie,49,156 Kg,Belo Horizonte,1.93
+8,Sr(a) Mallory Raynor,94,138 Kg,Belo Horizonte,1.08
+9,Sr(a) Laura Wilkinson,76,102 Kg,Belo Horizonte,1.73
+10,Sr(a) Arjun Boyer,83,143 Kg,São Paulo,1.19
+11,Sr(a) Gwendolyn Hickle,28,162 Kg,Santo André,1.26
+12,Sr(a) Felicia Mayer,90,87 Kg,Santo André,1.57
+13,Sr(a) Roosevelt Kemmer,90,146 Kg,Santos,1.70
+14,Sr(a) Jerrod Schamberger,24,112 Kg,Santos,1.31
+15,Sr(a) Robert Kessler,53,25 Kg,Guarulhos,1.91
+16,Sr(a) Alanis Jerde,83,104 Kg,Guarulhos,1.59
+17,Sr(a) Jayson Tromp,92,151 Kg,Belo Horizonte,1.31
+18,Sr(a) Tyrell Fay,34,16 Kg,Guarulhos,1.57
+19,Sr(a) Destany Armstrong,16,138 Kg,Porto Alegre,1.89
+20,Sr(a) Juwan Hayes,100,38 Kg,Santo André,1.96
+21,Sr(a) Dedrick Orn,15,128 Kg,Porto Alegre,1.51
+22,Sr(a) Kristoffer Bergnaum,41,60 Kg,Florianópolis,1.89
+23,Sr(a) Eva King,73,150 Kg,São Paulo,1.85
+24,Sr(a) Dell Balistreri,37,79 Kg,Santos,1.51
+25,Sr(a) Bethany Schamberger,77,163 Kg,Santos,1.43
+26,Sr(a) Mable Cronin,50,112 Kg,Santo André,1.21
+27,Sr(a) Luna Tillman,107,139 Kg,Belo Horizonte,1.23
+28,Sr(a) Brandon Stokes,77,78 Kg,Belo Horizonte,1.76
+29,Sr(a) Lesley O'Keefe,97,192 Kg,São Paulo,1.49
+30,Sr(a) Shaylee Gerhold,110,30 Kg,Guarulhos,1.47
+31,Sr(a) Jeromy Hegmann,90,126 Kg,Porto Alegre,1.17
+32,Sr(a) Elinor Luettgen,44,139 Kg,Porto Alegre,1.50
+33,Sr(a) Gerry Ernser,42,10 Kg,Santos,1.34
+34,Sr(a) Danny Botsford,51,177 Kg,Santo André,1.92
+35,Sr(a) Jerrod Swaniawski,58,159 Kg,Belo Horizonte,1.59
+36,Sr(a) Monty Legros,58,64 Kg,Belo Horizonte,1.56
+37,Sr(a) Rosina Spencer,62,79 Kg,Santos,1.70
+38,Sr(a) Jaiden Cremin,77,35 Kg,Belo Horizonte,1.44
+39,Sr(a) Nelda O'Connell,78,49 Kg,São Paulo,1.79
+40,Sr(a) Louvenia Corkery,17,191 Kg,Guarulhos,1.57
+41,Sr(a) Scot Thompson,77,87 Kg,Guarulhos,1.20
+42,Sr(a) Hazle Bernier,78,87 Kg,São Paulo,1.39
+43,Sr(a) Adonis Wunsch,14,130 Kg,São Paulo,1.72
+44,Sr(a) Valentin Adams,57,14 Kg,Florianópolis,1.43
+45,Sr(a) Susanna Buckridge,39,177 Kg,Guarulhos,1.74
+46,Sr(a) Camylle Abernathy,27,69 Kg,Belo Horizonte,1.66
+47,Sr(a) Kevin Williamson,100,181 Kg,Belo Horizonte,1.38
+48,Sr(a) Catharine Schumm,19,134 Kg,São Paulo,1.49
+49,Sr(a) Bradly Hudson,94,42 Kg,São Paulo,1.83
+50,Sr(a) Rachael Jast,32,193 Kg,Belo Horizonte,1.07
+51,Sr(a) Myles Veum,19,31 Kg,São Paulo,1.19
+52,Sr(a) Alverta Bosco,73,120 Kg,Santos,1.48
+53,Sr(a) Elsa McLaughlin,70,29 Kg,Florianópolis,1.86
+54,Sr(a) Tamara Dicki,15,48 Kg,Santos,1.88
+55,Sr(a) Alvis Rempel,42,173 Kg,Santo André,1.96
+56,Sr(a) Marianne Schumm,96,2 Kg,Santos,1.78
+57,Sr(a) Leanne Bosco,55,171 Kg,São Paulo,1.08
+58,Sr(a) Joshuah Gibson,109,55 Kg,Santos,1.97
+59,Sr(a) Andreanne Gulgowski,85,128 Kg,Santos,1.82
+60,Sr(a) Aurelie Hilpert,60,41 Kg,Guarulhos,1.44
+61,Sr(a) Dillan Wintheiser,102,124 Kg,Belo Horizonte,1.80
+62,Sr(a) Jazmyne Ebert,20,42 Kg,Belo Horizonte,1.33
+63,Sr(a) Queenie Bernhard,38,12 Kg,Porto Alegre,1.38
+64,Sr(a) Roderick Pfannerstill,107,157 Kg,Porto Alegre,1.17
+65,Sr(a) Antonette McLaughlin,29,19 Kg,Florianópolis,1.96
+66,Sr(a) Dayton Ledner,100,101 Kg,Belo Horizonte,1.27
+67,Sr(a) Janae Johns,22,90 Kg,Santo André,1.05
+68,Sr(a) Jaylon Runolfsson,110,4 Kg,Porto Alegre,1.25
+69,Sr(a) Austen Johnson,82,34 Kg,Belo Horizonte,1.89
+70,Sr(a) Edmond Macejkovic,66,174 Kg,Santos,1.49
+71,Sr(a) Hertha Buckridge,97,25 Kg,Guarulhos,1.46
+72,Sr(a) Gretchen Bahringer,107,119 Kg,Guarulhos,1.62
+73,Sr(a) Margarete Ullrich,72,74 Kg,São Paulo,1.70
+74,Sr(a) Fabiola Jacobs,89,197 Kg,Florianópolis,1.02
+75,Sr(a) Cristal Champlin,33,165 Kg,Belo Horizonte,1.75
+76,Sr(a) Jonathon Corwin,110,155 Kg,Guarulhos,1.20
+77,Sr(a) Kolby Kerluke,39,132 Kg,Santo André,1.17
+78,Sr(a) Alexandrea Davis,20,20 Kg,Guarulhos,1.23
+79,Sr(a) Jeffry Beer,59,79 Kg,Santos,1.95
+80,Sr(a) Benton Collier,35,98 Kg,Porto Alegre,1.78
+81,Sr(a) Octavia Smith,17,6 Kg,São Paulo,1.95
+82,Sr(a) Susana Rosenbaum,30,121 Kg,Santo André,1.71
+83,Sr(a) Kenyon Grady,90,172 Kg,Florianópolis,1.79
+84,Sr(a) Vena Bradtke,59,192 Kg,Porto Alegre,1.68
+85,Sr(a) Skylar Purdy,44,71 Kg,Santos,1.70
+86,Sr(a) Dallas Quitzon,62,194 Kg,Santo André,1.56
+87,Sr(a) May Dare,12,115 Kg,Guarulhos,1.56
+88,Sr(a) Jeffery Stanton,37,98 Kg,Florianópolis,1.22
+89,Sr(a) Rowland Zemlak,20,121 Kg,Santo André,1.51
+90,Sr(a) Ressie Cole,56,38 Kg,São Paulo,1.69
+91,Sr(a) Grady Erdman,27,90 Kg,Guarulhos,1.81
+92,Sr(a) Sonia Homenick,26,129 Kg,Santos,1.88
+93,Sr(a) Kip Champlin,27,190 Kg,São Paulo,1.46
+94,Sr(a) Andrew Wisoky,19,118 Kg,Santos,1.60
+95,Sr(a) Seth Reilly,null,100 Kg,Santos,1.60
+96,Sr(a) Heber Stiedemann,96,28 Kg,Santo André,1.47
+97,Sr(a) Zachariah Bahringer,19,74 Kg,São Paulo,1.96
+98,Sr(a) Emiliano Davis,14,44 Kg,Belo Horizonte,1.59
