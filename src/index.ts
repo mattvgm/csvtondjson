@@ -72,30 +72,43 @@ export class CSVToNDJSON extends Transform {
   private *updateBuffer(chunk: any) {
     //Buffer is an array, as we are concatenating them we use Buffer.concat
     //Then we move it the concatenated value to this.buffer
-    // Concatenate the incoming chunk with the buffer
+    //Concatenate the incoming chunk with the buffer
     this.buffer = Buffer.concat([this.buffer, chunk]);
     let breakLineIndex = 0;
     // Continue the loop until no more complete lines are found in the buffer
     while (breakLineIndex !== INDEX_NOT_FOUND) {
+      //console.log("------------------------------");
+      //console.log("this.buffer length = ", this.buffer.length);
+      //console.log("this.buffer = ", this.buffer);
+      //console.log("this.buffer in string= ", this.buffer.toString());
       //To find the breakLineIndex, we search for the position in this.buffer,of where the breakline symbol is
       //As our breakline symbol is a string, we convert it to buffer before
       //This way 'indexOf' can find the buffer version of breakline symbol
       // Find the index of the next occurrence of the break line symbol in the buffer
-
+      //The breakline HEXADECIMAL is probably '0a'
       breakLineIndex = this.buffer.indexOf(Buffer.from(BREAK_LINE_SYMBOL));
+      //console.log("breakLineIndex :", breakLineIndex);
       //If you find the breakline, stop processing
-      // If no more occurrence is found, exit the loop
-
+      //If no more occurrence is found, exit the loop
+      //We exit the loop if in the current buffer no breakline was found
+      //Note that in the next iteration, the current buffer will be concatenated with the following buffer
       if (breakLineIndex === INDEX_NOT_FOUND) break;
-
       const lineDataIndex = breakLineIndex + BREAK_LINE_SYMBOL.length;
+      //console.log("lineDataIndex", lineDataIndex);
+      //console.log("===");
       // Extract the line data from the buffer up to the line break
+      // It returns a new buffer,so it doesnt modify this.buffer
       const line = this.buffer.subarray(0, lineDataIndex);
+      //console.log("  line", line);
       // Convert the line data to a string
       const lineData = line.toString();
+      //console.log("  lineData", lineData);
+      //console.log("  rest of buffer", this.buffer);
 
       // Remove from the main buffer the data already processed line data
       this.buffer = this.buffer.subarray(lineDataIndex);
+
+      //console.log("cleaned buffer", this.buffer);
 
       // Skip the iteration if the line data is empty (contains only the break line symbol)
       if (lineData === BREAK_LINE_SYMBOL) continue;
@@ -134,6 +147,7 @@ export class CSVToNDJSON extends Transform {
   ): void {
     // Process the chunk and push the generated items to the Transform stream
     for (const item of this.updateBuffer(chunk)) {
+      //console.log("--item", item.toString());
       this.push(item);
     }
     // Signal the completion of processing by calling the callback function
